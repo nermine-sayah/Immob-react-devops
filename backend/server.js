@@ -13,9 +13,9 @@ app.get('/api/test', (req, res) => {
 
 // Données mock
 const logements = [
-  { id: 1, titre: "Appartement centre-ville", prix: 50000, ville: "Tunis" },
-  { id: 2, titre: "Maison avec jardin", prix: 120000, ville: "Sousse" },
-  { id: 3, titre: "Studio proche université", prix: 25000, ville: "Sfax" },
+  { id: 1, titre: "Appartement centre-ville", prix: 500000, ville: "Tunis" },
+  { id: 2, titre: "Maison avec jardin", prix: 1200000, ville: "Sousse" },
+  { id: 3, titre: "Studio proche université", prix: 25000, ville: "Monastir" },
 ];
 
 // Route pour récupérer les logements
